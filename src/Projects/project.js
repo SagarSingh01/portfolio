@@ -1,8 +1,14 @@
+import lenovo from "/src/assets/lenovo.png"
+import calculator from "/src/assets/calculator.jpg"
+import todo from "/src/assets/todo icon.png"
+import WeatherApp from "/src/assets/weatherApp.png"
+import Game from "/src/assets/tic tac toe.png"
+
 const projects = [
     {
         id: 1,
         name: "Lenovo Website Clone",
-        image: "./src/assets/lenovo.png",
+        image: lenovo,
         description: "A responsive Lenovo-inspired website built with HTML, CSS, and JavaScript.",
         tech: "HTML, CSS, JavaScript",
         liveUrl: "https://sagarsingh01.github.io/lenovo-website/",
@@ -11,7 +17,7 @@ const projects = [
 
     {
         id: 2,
-        image: "./src/assets/calculator.jpg",
+        image: calculator,
         name: "Calculator",
         description: "A basic calculator built with HTML, CSS, and JavaScript supporting arithmetic operations.",
         tech: "HTML, CSS, JavaScript",
@@ -21,7 +27,7 @@ const projects = [
     {
         id: 3,
         name: "Todo App",
-        image: "./src/assets/todo icon.png",
+        image: todo,
         description: "A simple Todo application built with HTML, CSS, and JavaScript to add, delete, edit, and mark tasks complete.",
         tech: "HTML, CSS, JavaScript",
         liveUrl: "https://sagarsingh01.github.io/todo-app/",
@@ -30,7 +36,7 @@ const projects = [
     {
         id: 4,
         name: "Weather App",
-        image: "./src/assets/WeatherApp.png",
+        image: WeatherApp,
         description: "A weather forecast app built with HTML, CSS, and JavaScript using OpenWeather API.",
         tech: "HTML, CSS, JavaScript",
         liveUrl: "https://sagarsingh01.github.io/weather-app-js/",
@@ -39,7 +45,7 @@ const projects = [
     {
         id: 5,
         name: "Tic Tac Toe Game",
-        image: "./src/assets/tic tac toe.png",
+        image: Game,
         description: "A classic Tic Tac Toe game built with HTML, CSS, and JavaScript with interactive UI.",
         tech: "HTML, CSS, JavaScript",
         liveUrl: "https://sagarsingh01.github.io/js-tic-tac-toe/",

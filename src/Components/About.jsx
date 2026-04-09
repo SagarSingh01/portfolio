@@ -1,6 +1,7 @@
 import React from "react";
 import { FaLinkedin , FaReact, FaJsSquare, FaCss3Alt, FaHtml5, FaGitAlt, FaGithub } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
+import SagarSingh from "/src/assets/SagarSingh.png"
 
 const About = () => {
   return (
@@ -9,7 +10,7 @@ const About = () => {
       {/* Left: Image */}
       <div className="flex-1 flex justify-center md:justify-start">
         <img
-          src="/src/assets/SagarSingh.png"
+          src={SagarSingh}
           alt="Sagar Singh"
           className="w-64 h-64 md:w-80 md:h-80 rounded-3xl border-4 border-yellow-400 object-cover shadow-2xl"
         />

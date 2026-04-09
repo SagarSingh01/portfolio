@@ -1,5 +1,6 @@
 import React from "react";
 import { FaArrowRight, FaUser } from "react-icons/fa";
+import Sagar from "/src/assets/Sagar.png"
 
 function Home() {
 
@@ -72,7 +73,7 @@ function Home() {
             <div className="absolute inset-0 rounded-3xl blur-2xl bg-blue-500/20"></div>
 
             <img
-              src="/src/assets/Sagar.png"
+              src={Sagar}
               alt="Sagar"
               className="relative w-72 md:w-105 h-auto object-contain drop-shadow-2xl will-change-transform"
             />

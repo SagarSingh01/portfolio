@@ -1,7 +1,11 @@
+import ReactTodo from "/src/assets/todoApp react.png"
+import ReactWeatherApp from "/src/assets/WeatherApp React.png"
+import ReactApp from "/src/assets/React.png"
+
 const ProjectReact = [
     {
         id: 1,
-        image: "./src/assets/todoApp react.png",
+        image: ReactTodo,
         name: "Todo List (React)",
         description: "A responsive Todo List built with React for adding, deleting, and marking tasks complete. Includes local storage support.",
         tech: "React , Tailwind CSS",
@@ -11,7 +15,7 @@ const ProjectReact = [
     {
         id: 2,
         name: "Weather App (React)",
-        image: "./src/assets/WeatherApp React.png",
+        image: ReactWeatherApp,
         description: "A modern weather app built with React and OpenWeather API to display real-time weather data and forecasts.",
         tech: "React , Tailwind CSS",
         liveUrl: "https://weather-onwi0head-sagarsingh01s-projects.vercel.app/",
@@ -20,7 +24,7 @@ const ProjectReact = [
     {
         id: 3,
         name: "React App",
-        image: "./src/assets/React.png",
+        image: ReactApp,
         description: "A sample React application demonstrating component-based architecture and interactive UI with React hooks.",
         tech: "React , Tailwind CSS",
         liveUrl: "https://react-app-silk-rho.vercel.app/",
