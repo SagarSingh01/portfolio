@@ -1,43 +1,29 @@
+import type { IconType } from "react-icons";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from 'react-icons/hi';
 
-const accounts = [
+type Account = {
+    Name: string;
+    Link: string;
+    Icon: IconType;
+    Size: number;
+    Color: string;
+}
+
+const Accounts: Account[] = [
     {
         Name: "Github",
         Link: "https://github.com/",
         Icon: FaGithub,
-        Size: 24,
-        Color : "#ffffff"
+        Size: 28,
+        Color : "#fff"
     },
 
     {
         Name: "LinkedIn",
         Link: "https://linkedin.com/in/sagar-singh001",
         Icon: FaLinkedin,
-        Size: 24,
-        Color : "#0A66C2"
-    },
-
-];
-
-export default accounts;
-
-/* Email Address */
-
-export const Accounts = [
-    {
-        Name: "Github",
-        Link: "https://github.com/",
-        Icon: FaGithub,
-        Size: 24,
-        Color : "#ffffff"
-    },
-
-    {
-        Name: "LinkedIn",
-        Link: "https://linkedin.com/in/sagar-singh001",
-        Icon: FaLinkedin,
-        Size: 24,
+        Size: 26,
         Color : "#0A66C2"
     },
 
@@ -49,3 +35,5 @@ export const Accounts = [
         Color : "#EA4335"
     }
 ];
+
+export default Accounts;

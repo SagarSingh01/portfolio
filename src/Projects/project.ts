@@ -1,10 +1,20 @@
 import lenovo from "/src/assets/lenovo.png"
 import calculator from "/src/assets/calculator.jpg"
-import todo from "/src/assets/todo icon.png"
+import todo from "/src/assets/todo_icon.png"
 import WeatherApp from "/src/assets/weatherApp.png"
-import Game from "/src/assets/tic tac toe.png"
+import Game from "/src/assets/tic_tac_toe.png"
 
-const projects = [
+type Project = {
+    id: number;
+    name: string;
+    image: string;
+    description: string;
+    tech: string;
+    liveUrl: string;
+    repoUrl: string;
+}
+
+const projects: Project[] = [
     {
         id: 1,
         name: "Lenovo Website Clone",

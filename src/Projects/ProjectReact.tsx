@@ -1,8 +1,17 @@
-import ReactTodo from "/src/assets/todoApp react.png"
-import ReactWeatherApp from "/src/assets/WeatherApp React.png"
-import ReactApp from "/src/assets/React.png"
+import ReactTodo from "/src/assets/todoApp_react.png"
+import ReactWeatherApp from "/src/assets/WeatherApp_React.png"
 
-const ProjectReact = [
+type Project = {
+    id: number;
+    name: string;
+    image: string;
+    description: string;
+    tech: string;
+    liveUrl: string;
+    repoUrl: string;
+}
+
+const ProjectReact: Project[] = [
     {
         id: 1,
         image: ReactTodo,
@@ -20,15 +29,6 @@ const ProjectReact = [
         tech: "React , Tailwind CSS",
         liveUrl: "https://weather-app-six-bice-56.vercel.app/",
         repoUrl: "https://github.com/SagarSingh01/weather-app",
-    },
-    {
-        id: 3,
-        name: "React App",
-        image: ReactApp,
-        description: "A sample React application demonstrating component-based architecture and interactive UI with React hooks.",
-        tech: "React , Tailwind CSS",
-        liveUrl: "https://react-app-silk-rho.vercel.app/",
-        repoUrl: "https://github.com/SagarSingh01/react-app",
     },
 ];
 
