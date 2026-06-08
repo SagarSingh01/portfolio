@@ -47,21 +47,6 @@ const Contact = () => {
                     </p>
                 </div>
 
-                {/* Contact Info */}
-                <div className="flex flex-col gap-4 mb-8">
-                    <div className="flex items-center gap-3 text-white/80">
-                        <FaEnvelope className="text-yellow-400" />
-                        <span className="text-sm md:text-base">
-                            sagar12378089@gmail.com
-                        </span>
-                    </div>
-
-                    <div className="flex items-center gap-3 text-white/80">
-                        <FaPhone className="text-yellow-400" />
-                        <span className="text-sm md:text-base">+91 7453081997</span>
-                    </div>
-                </div>
-
                 {/* Social Buttons */}
                 <div className="flex flex-wrap gap-4 justify-center md:justify-start">
                     {
