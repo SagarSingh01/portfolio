@@ -14,8 +14,8 @@ function Home() {
   return (
     <section
       id="home"
-      className={`min-h-screen flex items-center pt-28 relative overflow-hidden transition-all duration-500 ${mode ? "bg-white text-black" : "bg-black text-white"
-        }`}
+      className={`min-h-screen flex items-center pt-28 relative overflow-hidden 
+        transition-all duration-500 ${mode ? "bg-white text-black" : "bg-black text-white"}`}
     >
       {/* Background Blobs */}
       <div className="absolute w-96 h-96 bg-yellow-400/10 blur-3xl rounded-full -top-40 -left-40 animate-pulse"></div>
