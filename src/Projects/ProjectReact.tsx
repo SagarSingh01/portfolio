@@ -25,7 +25,7 @@ const ProjectReact: Project[] = [
         id: 2,
         name: "Weather App (React)",
         image: ReactWeatherApp,
-        description: "A modern weather app built with React and OpenWeather API to display real-time weather data and forecasts.",
+        description: "A modern weather app built with React and OpenWeather API to display real-time weather data with live cities Suggestions.",
         tech: "React , Tailwind CSS",
         liveUrl: "https://weather-app-six-bice-56.vercel.app/",
         repoUrl: "https://github.com/SagarSingh01/weather-app",
