@@ -6,7 +6,7 @@ A modern and responsive portfolio website built with React and typescript, showc
 
 Visit the portfolio here:
 
-**https://portfolio-five-pi-rx9tnqvh4m.vercel.app**
+https://sagar-singh.vercel.app
 
 ## ✨ Features
 
@@ -28,6 +28,7 @@ Visit the portfolio here:
 
 ## 📁 Project Structure
 
+```bash
 src/
 ├── assets/
 ├── Components/
@@ -39,13 +40,14 @@ src/
 ├── App.tsx
 ├── index.css
 └── main.tsx
+```
 
 ## 📂 Installation
 
 Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/SagarSingh01/portfolio.git
 ```
 
 Navigate to the project directory:
