@@ -29,7 +29,7 @@ const projects: Project[] = [
         id: 2,
         image: calculator,
         name: "Calculator",
-        description: "A basic calculator built with HTML, CSS, and JavaScript supporting arithmetic operations.",
+        description: "A Scientific Calculator built with HTML, CSS, and JavaScript supporting arithmetic operations and Scientic Calculations.",
         tech: "HTML, CSS, JavaScript",
         liveUrl: "https://sagarsingh01.github.io/calculator/",
         repoUrl: "https://github.com/SagarSingh01/calculator",

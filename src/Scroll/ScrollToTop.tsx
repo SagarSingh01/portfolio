@@ -44,7 +44,7 @@ function ScrollToTop() {
                                     : "bg-black/60 text-yellow-400 border-yellow-400/20 shadow-[0_0_30px_rgba(250,204,21,0.25)]"
                                 }`}
                         >
-                            <FaArrowUp size={18} />
+                            <FaArrowUp className="animate-bounce" size={20} />
                         </Link>
                     </motion.div>
                 )

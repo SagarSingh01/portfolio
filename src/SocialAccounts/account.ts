@@ -13,7 +13,7 @@ type Account = {
 const Accounts: Account[] = [
     {
         Name: "Github",
-        Link: "https://github.com/",
+        Link: "https://github.com/SagarSingh01",
         Icon: FaGithub,
         Size: 28,
         Color : "#fff"
