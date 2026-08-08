@@ -5,6 +5,7 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 import { IoIosSunny } from "react-icons/io";
 import { themeContext } from "../Context/Context.js";
 import { Link } from "react-scroll";
+import ScrollProgress from "../Scroll/ScrollProgress.js";
 
 function Header() {
     const [isOpen, setIsOpen] = useState<boolean>(false);
@@ -204,6 +205,7 @@ function Header() {
                     </button>
                 </div>
             </div>
+            <ScrollProgress />
         </header>
     );
 }

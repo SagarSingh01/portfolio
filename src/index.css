@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
 html {
+    scrollbar-width: thin;
+    scrollbar-color: #f97316 #0a0a0a;
     scroll-behavior: smooth;
 }
